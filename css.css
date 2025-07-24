@@ -73,10 +73,38 @@ header .brand-right button .icon-bnt img{
     width: 570px;
     height: 355px;
 }
+/* ----------s-b */
+.s-b-text{
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+}
+.s-b-a{
+    display: grid;
+    grid-template-columns: repeat(4, 1FR);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    margin-left: 0 20px;
+    justify-content: space-around;
+    
+}
+.s-b-img{
+    text-align: center;
+}
+.s-b-img img{
+    width: 200px;
+}
+.s-b-img button{
+    width:200px ;
+    background-color: rgb(255, 123, 0);
+    height: 30px;
+    border: none;
+    color: #fdfdfd;
+}
 
 /* resposive for mobaile */
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 567px){
 /* header----------------------------------------- */
     header{
         display: flex;
@@ -111,7 +139,7 @@ header .brand-right button {
 }
     .s-a-a-img{
     
-        width: 500px;
+        width: 400px;
         height: 245px;
         
 }
@@ -132,5 +160,12 @@ header .brand-right button {
         margin-top: 20px;
         font-size: 14px;
     }
+    .s-b-a{
+    display: grid;
+    grid-template-columns: repeat(2, 1FR);
+    gap: 10PX;
+    
+    
+}
 
 }
