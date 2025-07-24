@@ -111,10 +111,12 @@ header .brand-right button .icon-bnt img{
 }
 .s-c .imag img{
     width: 500px;
-    height: 370px;
+    height: 500px;
 }
 .s-c .text{
+    margin-top:50px ;
     margin-left: 50px;
+    max-height: 380px;
 }
 .s-c .text h1{
     font-size: 50px;
@@ -123,6 +125,82 @@ header .brand-right button .icon-bnt img{
     font-size: 22px;
     list-style: disc;
     
+}
+/*        s-d */
+.s-d{
+    margin-top: 100px;
+}
+.s-d-text{
+    text-align: center;
+}
+.s-d-text h1{
+    font-size: 50px;
+}
+.s-d-text p{
+    font-size: 22px;
+}
+.s-d-img{
+    display: flex;
+}
+.s-d-img .img-1-a{
+    position: relative;
+    display: inline-block;
+
+}
+.s-d-img .img-1-a img{
+    width: 100%;
+    border-radius: 20px;
+    display: block; 
+    
+}
+.s-d-img .img-1-a .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-shadow:1px 1px 2px black;
+    font-size: 11px;
+    background-color: transparent;
+}
+.s-d-img .img-1-a .text h1{
+    background-color: transparent;
+    color: #ffffff;
+}
+.s-d-img .img-1-a .text a{
+    color: #fffdfd;
+    background-color: transparent;
+}
+.s-d-img .img-a {
+    position: relative;
+    display: inline-block;
+    width: 1200px;
+
+}
+.s-d-img .img-a img{
+    width: 100%;
+    border-radius: 20px;
+    display: block; 
+    height: 400px; 
+}
+
+.s-d-img .img-a .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-shadow:1px 1px 2px black;
+    font-size: 24px;
+    background-color: transparent;   
+}
+.s-d-img .img-a .text h1{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.s-d-img .img-a .text a{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
 }
 /* resposive for mobaile */
 
@@ -215,5 +293,41 @@ header .brand-right button {
     font-size: 15px;
     
 }
+    .s-d-img{
+        display: inline;
+    }
+    .s-d-img .img-a {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    
 
+}
+.s-d-img .img-a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: block; 
+     
+}
+
+.s-d-img .img-a .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-shadow:1px 1px 2px black;
+    font-size: 12px;
+    background-color: transparent;   
+}
+.s-d-img .img-a .text h1{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.s-d-img .img-a .text a{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
 }
