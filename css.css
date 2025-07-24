@@ -8,7 +8,7 @@
 /* colores */
 .dark-2{
     color: rgb(112, 108, 108);
-    font-size: smaller;
+    font-size: small;
 }
 .t-c-1{
     color: rgb(255, 123, 0);
@@ -57,6 +57,22 @@ header .brand-right button .icon-bnt img{
 .icon-bnt a:hover{
     color: black;
 }
+.s-a-a{
+    margin-top:120px ;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;    
+}
+.s-a-a-text{
+    padding-top: 162px;
+}
+.s-a-a-text h1{
+    font-size: 65px;
+}
+.s-a-a-img img{
+    width: 570px;
+    height: 355px;
+}
 
 /* resposive for mobaile */
 
@@ -69,7 +85,6 @@ header .brand-right button .icon-bnt img{
     header .brand-logo img{
         width: 63px;
         height: 38px;
-        ;
     }
     header .brand-right li{
         display: none;
@@ -87,4 +102,35 @@ header .brand-right button {
 }
     header .brand-right button .icon-bnt a:hover{
         color: rgb(104, 103, 103);
-}  }
+}  /* main s-a     s-a-a   s-a-a-text/img */
+    .s-a-a{
+        margin-top: 0;
+        display: flex;
+        
+        flex-direction: column-reverse;
+}
+    .s-a-a-img{
+    
+        width: 500px;
+        height: 245px;
+        
+}
+    .s-a-a-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .s-a-a-text {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+    .s-a-a-text h1{
+        font-size:24px ;
+    }
+    .s-a-a-text p{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+}
