@@ -233,12 +233,30 @@ input{
     height: 30px;
     border: none;
 }
-button{
+.main-2 .text button{
     width: 70px;
     height: 30px;
     background-color: rgb(255, 123, 0) ;
     border: none;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer .b{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-columns: repeat(4, 1FR);
+    grid-template-rows: repeat(2, auto); */
+}
+footer .b li{
+    list-style: none;
+    padding: 20px;
+}
+footer .c img{
+    padding: 10px;
+}
+
 /* resposive for mobaile */
 
 @media screen and (max-width: 567px){
@@ -246,6 +264,7 @@ button{
     header{
         display: flex;
         align-items: center;
+        min-height: 800px;
     }
     header .brand-logo img{
         width: 63px;
@@ -395,5 +414,20 @@ button{
     height: 30px;
     background-color: rgb(255, 123, 0) ;
     border: none;
+}
+footer{
+    display: inline;
+    justify-content: space-between;
+}
+footer .b{
+    display: inline;
+
+}
+footer .b li{
+    list-style: none;
+    padding: 20px;
+}
+footer .c img{
+    padding: 10px;
 }
 }
