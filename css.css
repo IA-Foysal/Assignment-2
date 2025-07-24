@@ -100,8 +100,30 @@ header .brand-right button .icon-bnt img{
     height: 30px;
     border: none;
     color: #fdfdfd;
+    }
+/* ------------s-c */
+.s-c{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+    ;
 }
-
+.s-c .imag img{
+    width: 500px;
+    height: 370px;
+}
+.s-c .text{
+    margin-left: 50px;
+}
+.s-c .text h1{
+    font-size: 50px;
+}
+.s-c .text li{
+    font-size: 22px;
+    list-style: disc;
+    
+}
 /* resposive for mobaile */
 
 @media screen and (max-width: 567px){
@@ -165,6 +187,32 @@ header .brand-right button {
     grid-template-columns: repeat(2, 1FR);
     gap: 10PX;
     
+    
+}
+/* ----s-c------ */
+.s-c{
+    margin-top: 150px;
+    display: inline;
+    justify-content: center;
+    
+}
+.s-c .imag{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.s-c .imag img{
+    width: 356px;
+    height: 396px;
+}
+.s-c .text{
+    margin-top: 20px;
+}
+.s-c .text h1{
+    font-size: 30px;
+    
+}
+.s-c .text li{
+    font-size: 15px;
     
 }
 
