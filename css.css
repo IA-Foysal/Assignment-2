@@ -264,18 +264,23 @@ footer .c img{
 /* header----------------------------------------- */
     header{
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        min-height: 800px;
+        margin-bottom: 30px;
+        
     }
     header .brand-logo img{
         width: 63px;
         height: 38px;
+        align-items: center;
+        justify-content: space-between;
     }
     header .brand-right li{
         display: none;
     }
-header .brand-right button {
-    border: 2px solid red;
+    header .brand-right button {
+    display: flex;
+    align-items: center;
 }
     header .brand-right button .icon-bnt img{
         width: 40px;
