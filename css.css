@@ -412,6 +412,11 @@ footer .c img{
 .s-d-text{
     margin-bottom: 40px;
 }
+.main-2 img{
+    width: 100%;
+    display: block; 
+    height: 400px;
+}
 .main-2 .text{
     width: 100%;
     
