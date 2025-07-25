@@ -107,8 +107,20 @@ header .brand-right button .icon-bnt img{
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
-    
-    ;
+    position: relative;
+}
+.s-c .trust{
+    position: absolute;
+    width: 500px;
+    padding-top: 50px;
+}
+.s-c .trust img{
+    top: 10%;
+    margin-left:85% ;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
 }
 .s-c .imag img{
     width: 500px;
@@ -355,6 +367,9 @@ footer .c img{
     font-size: 15px;
     
 }
+.s-c .trust img{
+    display: none;
+}
     .s-d-img{
         display: inline;
     }
@@ -425,11 +440,19 @@ footer{
     display: inline;
     justify-content: space-between;
 }
+footer .a img{
+    width: 90px;
+    margin-left: 20px;
+}
+footer .a p{
+    margin-left: 20px;
+}
 footer .b{
     display: inline;
 
 }
 footer .b li{
+    margin-left: 20px;
     list-style: none;
     padding: 20px;
 }
